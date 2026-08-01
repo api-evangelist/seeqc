@@ -1,8 +1,25 @@
 aid: seeqc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seeqc.png
 name: Seeqc
-description: 'Seeqc is a company surfaced as a portfolio company of eqt-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: quantum-computing. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Seeqc is developing the first digital quantum computing platform for
+  businesses, integrating all core functions of a quantum computer - qubits together
+  with classical control logic - onto a single superconducting chip operating at
+  millikelvin temperatures. Founded in 2019 and holding over 115 patents, the company
+  combines classical and quantum technologies to address the efficiency, stability,
+  and cost challenges endemic to scalable quantum computing, and also offers
+  superconducting chip foundry services. As a quantum-hardware and foundry company,
+  Seeqc currently publishes no public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/seeqc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Quantum Computing
+- Superconducting
+- Semiconductors
+- Deep Tech
+- Chip Foundry
+- Hardware
+- Data Center
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/seeqc-domain-security.yml
 - type: Website
   url: https://seeqc.com/
+- type: TermsOfService
+  url: https://seeqc.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://seeqc.com/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
