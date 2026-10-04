@@ -49,7 +49,7 @@ tags:
 - Deep Tech
 - Chip Foundry
 - Hardware
-- Data-Center
+- Data Center
 tags_raw:
 - Company
 - Quantum Computing
@@ -59,6 +59,7 @@ tags_raw:
 - Chip Foundry
 - Hardware
 - Data Center
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
